@@ -1,0 +1,31 @@
+
+
+ Aula HTML
+
+Dominio > nome do site (nome unico)
+
+Hospedagem> local onde o site esta armazenado	
+	                      
+                                           (TLD)
+	www.github.com/Gustavoguanabara
+          (sub-dom)(dominio)           (caminho)
+
+
+HTML > HyperTextMarkupLanguage
+	
+	Html, é focada em conteudo
+(texto, imagens, vídeos, tabelas)
+
+	<h1> (abertura de tag) Exemplo de titulo (conteudo
+) <h1/> (fechamento de tag)
+
+<p> exemplo de paragrafo </p>
+
+CSS      > CascadingStyleSheets
+	
+	CSS é focado no design
+(Cores, sombras, tamanhos, posicionamento)
+
+	
+		
+JavaScript > interatividade

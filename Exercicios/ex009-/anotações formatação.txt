@@ -1,0 +1,6 @@
+<code> usado para codigos
+
+e para usar a pré-formatação
+tag <pre>
+
+tag <q> para citações, vai add aspas

@@ -1,0 +1,15 @@
+header {
+    position: relative;
+}
+
+.nav {
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 0;    
+}
+
+
+body {
+    background-image: linear-gradient(to bottom, rgb(63, 69, 160), rgb(108, 52, 180), grey );
+    background-attachment: fixed;
+ }

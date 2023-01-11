@@ -1,0 +1,5 @@
+Para add símbolos especias 
+-> & e o nome do simb, ex: reg, copy, trade
+
+Para add emoji
+-> &#x e o num do emoji, encontrar no emojipedia, fecha com (;)

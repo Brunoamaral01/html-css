@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blocos</title>
+    <style>
+        * {
+            height: 100%;
+            background-attachment: fixed;
+        }
+
+        body {
+            background-image: linear-gradient(to bottom, rgb(161, 109, 230), rgb(228, 188, 228));
+        }
+
+        h1 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 3em;
+            color: rgb(29, 3, 70);
+            height: 60px;
+            width: 500px;
+            text-align: center;
+            
+
+            margin: 60px auto 20px auto;
+            padding: 2px;
+        }
+
+        h2 {
+            display: block;
+            margin: 10px auto 10px auto;
+            height: max-content;
+        }
+
+        ul {
+            display: block;
+            margin: 10px auto 10px auto;
+            padding: 20px;
+            height: max-content;
+            text-align: center;
+        }
+
+        li {
+            display: inline-block;
+            background-color: blueviolet;
+            height: 200px;
+            width: 200px;
+            margin: 10px  2px ;
+            padding: 60px 20px;
+            border-width: 3px;
+            border-radius: 10px;
+            text-align: center;
+            vertical-align: bottom;   
+            box-shadow: 4px 4px 5px;
+        }
+
+        .li:hover {
+            color: yellow;
+        }
+
+        li > p {
+            display: none;
+        }
+
+        .li:hover > p {
+            display: block;
+        }
+
+        #basetext {
+            display: block;
+            height: 10px;
+            width: auto;
+
+            font-size: 2em;
+            font-weight: bold;
+            text-align: center;
+           
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1> Escolha uma carta</h1>
+
+    <h2>
+        <ul>
+            <li class="li">1 <p>Você perdeu</p></li>
+            <li class="li">2 <p>Você se arrombou todin</p></li>
+            <li class="li">3 <p>Você tumou no papeiro</p></li>
+        </ul>
+    </h2>
+
+    <p id="basetext"> <a href="https://cdn.pensador.com/img/frase/ro/ck/rocky_balboa_nao_importa_o_quanto_voce_bate_mas_sim_o_q_l6496jy.jpg" target="_blank">Lição</a> </p>
+    
+</body>
+</html>
